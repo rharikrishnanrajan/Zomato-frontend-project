@@ -12,6 +12,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <!-- Material Symbols -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#E23744',
+                dark: '#CB202D',
+                light: '#FEEBEC',
+                container: '#db313f',
+              },
+              rating: {
+                DEFAULT: '#24963F',
+                light: '#E6F7EC',
+              },
+              gold: {
+                DEFAULT: '#E5C158',
+                light: '#FFF8E1',
+              },
+              surface: {
+                DEFAULT: '#FFFFFF',
+                alt: '#F8F8F8',
+                container: '#F0EDED',
+                'container-low': '#F6F3F2',
+                'container-high': '#EAE7E7',
+                variant: '#E5E2E1',
+                dim: '#DCD9D9',
+              },
+              'on-surface': '#1B1B1B',
+              'on-surface-variant': '#5B403F',
+              background: '#FCFAF8',
+              outline: '#8F6F6E',
+              'outline-variant': '#E4BEBC',
+              error: {
+                DEFAULT: '#BA1A1A',
+                container: '#FFdad6',
+              }
+            },
+            borderRadius: {
+              card: '12px',
+              btn: '12px',
+              chip: '8px',
+              pill: '9999px',
+            },
+            boxShadow: {
+              card: '0px 4px 12px rgba(0, 0, 0, 0.08)',
+              'card-hover': '0px 8px 24px rgba(0, 0, 0, 0.12)',
+              nav: '0px 2px 8px rgba(0, 0, 0, 0.06)',
+              modal: '0px 16px 48px rgba(0, 0, 0, 0.16)',
+              'focus-red': '0px 4px 12px rgba(226, 55, 68, 0.15)',
+            },
+            maxWidth: {
+              container: '1280px',
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

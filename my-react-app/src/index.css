@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
 
-@import "tailwindcss";
-
-@theme {
+:root {
   --color-primary: #E23744;
   --color-primary-dark: #CB202D;
   --color-primary-light: #FEEBEC;
